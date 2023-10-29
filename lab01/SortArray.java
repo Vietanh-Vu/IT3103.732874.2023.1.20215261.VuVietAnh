@@ -1,21 +1,21 @@
 package Lab01;
-
 import java.util.Scanner;
-
 public class SortArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Prompt the user to enter the number of elements in the array
         System.out.print("Enter the number of elements in the array: ");
         int n = scanner.nextInt();
         int[] arr = new int[n];
-        System.out.println("Enter the array elements:");
 
+        // Prompt the user to enter the array elements
+        System.out.println("Enter the array elements:");
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
 
-        // Bubble Sort
+        // Perform Bubble Sort to sort the array in ascending order
         int temp;
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - 1 - i; j++) {
@@ -27,7 +27,7 @@ public class SortArray {
             }
         }
 
-        // Calculate sum and average
+        // Calculate the sum and average of the array elements
         int sum = 0;
         for (int num : arr) {
             sum += num;
@@ -43,4 +43,3 @@ public class SortArray {
         System.out.println("Average of the array elements: " + average);
     }
 }
-

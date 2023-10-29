@@ -8,6 +8,7 @@ public class DaysOfMonth {
         int year;
         String monthInput;
 
+        // Input validation loop for the year
         while (true) {
             System.out.print("Enter a year: ");
             if (scanner.hasNextInt()) {
@@ -20,6 +21,7 @@ public class DaysOfMonth {
             scanner.next();
         }
 
+        // Input validation loop for the month
         while (true) {
             System.out.print("Enter a month: ");
             monthInput = scanner.next().toLowerCase();
@@ -37,6 +39,7 @@ public class DaysOfMonth {
         }
     }
 
+    // Method to map month input to a month number
     public static int getMonthNumber(String monthInput) {
         String[] months = {"january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"};
         String[] monthAbbreviations = {"jan.", "feb.", "mar.", "apr.", "may", "jun.", "jul.", "aug.", "sep.", "oct.", "nov.", "dec."};
@@ -51,9 +54,10 @@ public class DaysOfMonth {
                 return i + 1;
             }
         }
-        return -1;
+        return -1; // Invalid month
     }
 
+    // Method to determine the number of days in a given month
     public static int getDaysInMonth(int month, int year) {
         switch (month) {
             case 1, 3, 5, 7, 8, 10, 12:
@@ -66,7 +70,6 @@ public class DaysOfMonth {
             default:
                 System.out.println("Invalid Month.");
         }
-        return 0;
+        return 0; // Invalid month
     }
-
 }
