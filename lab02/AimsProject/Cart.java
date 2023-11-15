@@ -21,6 +21,43 @@ public class Cart {
         return isDone;
     }
 
+    // Method to add a list DigitalVideoDisc item to the cart
+    public static boolean addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
+        boolean isDone = true;
+
+        for (DigitalVideoDisc dvd : dvdList) {
+            if (items.containsKey(dvd)) {
+                items.put(dvd, items.get(dvd) + 1); // Increase the quantity if the item already exists
+            } else {
+                items.put(dvd, 1); // Add the item to the cart with a quantity of 1
+            }
+        }
+
+        return isDone;
+    }
+
+    // Method to add 2 DigitalVideoDisc item to the cart
+    public static boolean addDigitalVideoDisc(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
+        boolean isDone = true;
+
+        // Add the first DVD
+        if (items.containsKey(dvd1)) {
+            items.put(dvd1, items.get(dvd1) + 1); // Increase the quantity if the item already exists
+        } else {
+            items.put(dvd1, 1); // Add the item to the cart with a quantity of 1
+        }
+
+        // Add the second DVD
+        if (items.containsKey(dvd2)) {
+            items.put(dvd2, items.get(dvd2) + 1); // Increase the quantity if the item already exists
+        } else {
+            items.put(dvd2, 1); // Add the item to the cart with a quantity of 1
+        }
+
+        return isDone;
+    }
+
+
     // Method to remove a DigitalVideoDisc item from the cart
     public static boolean removeDigitalVideoDisc(DigitalVideoDisc item) {
         boolean isDone = false;
@@ -62,7 +99,6 @@ public class Cart {
         for (Map.Entry<DigitalVideoDisc, Integer> entry : items.entrySet()) {
             DigitalVideoDisc dvd = entry.getKey(); // Get the DVD object
             int qty = entry.getValue(); // Get the quantity
-
             // Display DVD information and quantity
             System.out.println("Title: " + dvd.getTitle());
             System.out.println("Category: " + dvd.getCategory());

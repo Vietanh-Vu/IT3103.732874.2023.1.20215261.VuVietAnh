@@ -1,21 +1,32 @@
 package Lab02;
 
 public class DigitalVideoDisc {
+    ////////////////////////////////////////////
     // Private instance variables to store information about the DVD
+    ////////////////////////////////////////////
     private String title;
     private String category;
     private String director;
     private int length;
     private float cost;
 
+    private static int nbDigitalVideoDiscs = 0;
+
+    private int id;
+
+    ////////////////////////////////////////////
     // Constructor to create a DVD with a given title
+    ////////////////////////////////////////////
+
     public DigitalVideoDisc(String title) {
         this.title = title;
+        updateNbDigitalVideoDiscs(); // Update the class variable
+        this.id = nbDigitalVideoDiscs; // Assign the unique ID
     }
 
     // Constructor to create a DVD with a title, category, and cost
     public DigitalVideoDisc(String title, String category, float cost) {
-        this(title); // Call the previous constructor to set the title
+        this(title); // Call the previous constructor
         this.category = category;
         this.cost = cost;
     }
@@ -32,7 +43,24 @@ public class DigitalVideoDisc {
         this.length = length;
     }
 
+    ////////////////////////////////////////////
     // Getter method to retrieve the title of the DVD
+    ////////////////////////////////////////////
+
+    // Method to update the class variable nbDigitalVideoDiscs
+    private static void updateNbDigitalVideoDiscs() {
+        nbDigitalVideoDiscs++;
+    }
+
+    public static int getNbDigitalVideoDiscs() {
+        return nbDigitalVideoDiscs;
+    }
+
+    // Getter method for the id
+    public int getId() {
+        return id;
+    }
+
     public String getTitle() {
         return title;
     }
