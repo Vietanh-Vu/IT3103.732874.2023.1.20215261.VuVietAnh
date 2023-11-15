@@ -11,6 +11,7 @@ public class Aims {
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation", 18.99f);
         DigitalVideoDisc[] arrayDvd = {dvd1, dvd2, dvd3};
 
+
         if (anOrder.addDigitalVideoDisc(dvd1, dvd2)) {
             System.out.println("Add successful");
             System.out.println();
@@ -35,9 +36,13 @@ public class Aims {
 
         if (anOrder.addDigitalVideoDisc(arrayDvd)) {
 
+
+        if (anOrder.addDigitalVideoDisc(arrayDvd)) {
+
             System.out.println("Add successful");
             System.out.println();
         }
+
 
         // print number dvd
         System.out.println("Number of dvd is: " + DigitalVideoDisc.getNbDigitalVideoDiscs());
@@ -51,6 +56,16 @@ public class Aims {
 //        if (anOrder.addDigitalVideoDisc(dvd1)) {
 //            System.out.println("Add successful");
 //        }
+
+
+
+        anOrder.searchDVDById(2);
+
+
+//        if (anOrder.addDigitalVideoDisc(dvd1)) {
+//            System.out.println("Add successful");
+//        }
+
 
 
 //        if (anOrder.addDigitalVideoDisc(dvd2)) {

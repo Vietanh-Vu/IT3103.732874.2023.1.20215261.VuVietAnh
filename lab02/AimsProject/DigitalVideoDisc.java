@@ -43,10 +43,6 @@ public class DigitalVideoDisc {
         this.length = length;
     }
 
-    ////////////////////////////////////////////
-    // Getter method to retrieve the title of the DVD
-    ////////////////////////////////////////////
-
 
 
     // Method to update the class variable nbDigitalVideoDiscs
@@ -60,10 +56,6 @@ public class DigitalVideoDisc {
         return this.title.toLowerCase().contains(title.toLowerCase());
     }
 
-    ////////////////////////////////////////////
-    // Getter and Setter method to retrieve the title of the DVD
-    ////////////////////////////////////////////
-
 
     public static int getNbDigitalVideoDiscs() {
         return nbDigitalVideoDiscs;
@@ -73,6 +65,9 @@ public class DigitalVideoDisc {
     public int getId() {
         return id;
     }
+    
+    
+    // Getter and Setter method to retrieve the title of the DVD
 
     public String getTitle() {
         return title;
