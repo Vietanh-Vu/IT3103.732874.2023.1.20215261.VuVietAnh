@@ -39,6 +39,8 @@ public class Aims {
 
         if (anOrder.addDigitalVideoDisc(arrayDvd)) {
 
+
+        if (anOrder.addDigitalVideoDisc(arrayDvd)) {
             System.out.println("Add successful");
             System.out.println();
         }
@@ -59,14 +61,15 @@ public class Aims {
 
 
 
-        anOrder.searchDVDById(2);
-
-
 //        if (anOrder.addDigitalVideoDisc(dvd1)) {
 //            System.out.println("Add successful");
 //        }
 
 
+
+//        if (anOrder.addDigitalVideoDisc(dvd1)) {
+//            System.out.println("Add successful");
+//        }
 
 //        if (anOrder.addDigitalVideoDisc(dvd2)) {
 //            System.out.println("Add successful");

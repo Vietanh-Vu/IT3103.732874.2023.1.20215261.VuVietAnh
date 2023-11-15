@@ -43,13 +43,10 @@ public class DigitalVideoDisc {
         this.length = length;
     }
 
-
-
     // Method to update the class variable nbDigitalVideoDiscs
     private static void updateNbDigitalVideoDiscs() {
         nbDigitalVideoDiscs++;
     }
-
 
     // isMatch to check title
     public boolean isMatch(String title) {
@@ -65,7 +62,7 @@ public class DigitalVideoDisc {
     public int getId() {
         return id;
     }
-    
+
     
     // Getter and Setter method to retrieve the title of the DVD
 
