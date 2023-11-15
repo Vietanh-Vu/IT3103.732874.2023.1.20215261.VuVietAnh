@@ -25,6 +25,31 @@ public class Aims {
 //            System.out.println("Add successful");
 //        }
 
+        if (anOrder.addDigitalVideoDisc(dvd1)) {
+            System.out.println("Add successful");
+            System.out.println();
+        }
+
+        if (anOrder.addDigitalVideoDisc(dvd2)) {
+            System.out.println("Add successful");
+            System.out.println();
+        }
+
+        // print number dvd
+        System.out.println("Number of dvd is: " + DigitalVideoDisc.getNbDigitalVideoDiscs());
+
+        // print the id of dvd2
+        System.out.println("Id of dvd2 is: " + dvd2.getId());
+
+//        if (anOrder.addDigitalVideoDisc(dvd1)) {
+//            System.out.println("Add successful");
+//        }
+
+
+//        if (anOrder.addDigitalVideoDisc(dvd2)) {
+//            System.out.println("Add successful");
+//        }
+
 //        if (anOrder.addDigitalVideoDisc(dvd3)) {
 //            System.out.println("Add successful");
 //            System.out.println();
