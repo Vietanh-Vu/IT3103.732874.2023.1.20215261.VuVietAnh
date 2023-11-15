@@ -47,10 +47,23 @@ public class DigitalVideoDisc {
     // Getter method to retrieve the title of the DVD
     ////////////////////////////////////////////
 
+
+
     // Method to update the class variable nbDigitalVideoDiscs
     private static void updateNbDigitalVideoDiscs() {
         nbDigitalVideoDiscs++;
     }
+
+
+    // isMatch to check title
+    public boolean isMatch(String title) {
+        return this.title.toLowerCase().contains(title.toLowerCase());
+    }
+
+    ////////////////////////////////////////////
+    // Getter and Setter method to retrieve the title of the DVD
+    ////////////////////////////////////////////
+
 
     public static int getNbDigitalVideoDiscs() {
         return nbDigitalVideoDiscs;

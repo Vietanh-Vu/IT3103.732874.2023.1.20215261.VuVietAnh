@@ -94,6 +94,80 @@ public class Cart {
         return totalCost;
     }
 
+    // Method to print the content in Cart
+    public static void printCart() {
+        System.out.println("***********************CART***********************");
+        System.out.println("Ordered Items:");
+
+        int itemNumber = 1;
+        for (Map.Entry<DigitalVideoDisc, Integer> entry : items.entrySet()) {
+            DigitalVideoDisc dvd = entry.getKey();
+            int qty = entry.getValue();
+
+            // Print information for each DVD
+            System.out.printf("%d. DVD - %s - %s - %s - %d: $%.2f%n",
+                    itemNumber, dvd.getTitle(), dvd.getCategory(), dvd.getDirector(), dvd.getLength(), dvd.getCost());
+
+            itemNumber++;
+        }
+
+        // Print total cost
+        System.out.printf("Total cost: $%.2f%n", calculateTotalCost());
+        System.out.println("***************************************************");
+    }
+
+    // Method to search by id
+    public static void searchDVDById(int id) {
+        boolean found = false;
+
+        System.out.println("***********************SEARCH RESULTS***********************");
+
+        for (Map.Entry<DigitalVideoDisc, Integer> entry : items.entrySet()) {
+            DigitalVideoDisc dvd = entry.getKey();
+
+            if (dvd.getId() == id) {
+                found = true;
+                // Print information for the matching DVD
+                System.out.printf("DVD - %s - %s - %s - Length: %d: $%.2f%n",
+                        dvd.getTitle(), dvd.getCategory(), dvd.getDirector(), dvd.getLength(), dvd.getCost());
+                System.out.printf("Quantity: %d%n", entry.getValue());
+                System.out.println("***********************************************************");
+                break; // Stop searching once a match is found
+            }
+        }
+
+        if (!found) {
+            System.out.println("No matching DVD found in the cart.");
+            System.out.println("***********************************************************");
+        }
+    }
+
+    // Method to search by title
+    public static void searchDVDByTitle(String title) {
+        boolean found = false;
+
+        System.out.println("***********************SEARCH RESULTS***********************");
+
+        for (Map.Entry<DigitalVideoDisc, Integer> entry : items.entrySet()) {
+            DigitalVideoDisc dvd = entry.getKey();
+
+            if (dvd.isMatch(title)) {
+                found = true;
+                // Print information for the matching DVD
+                System.out.printf("DVD - %s - %s - %s - Length: %d: $%.2f%n",
+                        dvd.getTitle(), dvd.getCategory(), dvd.getDirector(), dvd.getLength(), dvd.getCost());
+                System.out.printf("Quantity: %d%n", entry.getValue());
+                System.out.println("***********************************************************");
+            }
+        }
+
+        if (!found) {
+            System.out.println("No matching DVD found in the cart.");
+            System.out.println("***********************************************************");
+        }
+    }
+
+
     // Method to display the contents of the cart
     public static void showCart() {
         for (Map.Entry<DigitalVideoDisc, Integer> entry : items.entrySet()) {
