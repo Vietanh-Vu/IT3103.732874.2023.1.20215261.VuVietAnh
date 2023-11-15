@@ -1,0 +1,12 @@
+
+²
+java:S1598"œThis file "Aims.java" should be located in "Lab02" directory, not in "/mnt/ntfs/Workspace/School/IT3103.732874.2023.1.20215261.VuVietAnh/lab02/AimsProject".(àÌÄW
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àÌÄW
+R
+java:S1854"<Remove this useless assignment to local variable "arrayDvd".(ýôÓ„
+V
+java:S1854";Remove this useless assignment to local variable "anOrder".(¨‰‡šúÿÿÿÿ
+G
+java:S1481",Remove this unused "anOrder" local variable.(¨‰‡šúÿÿÿÿ
+C
+java:S1481"-Remove this unused "arrayDvd" local variable.(ýôÓ„
