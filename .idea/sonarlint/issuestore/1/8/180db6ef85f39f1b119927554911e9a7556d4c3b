@@ -1,0 +1,7 @@
+
+³
+java:S1598"This file "Store.java" should be located in "Lab02" directory, not in "/mnt/ntfs/Workspace/School/IT3103.732874.2023.1.20215261.VuVietAnh/lab02/AimsProject".(àÌÄW
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àÌÄW
+E	java:S106"+Replace this use of System.out by a logger.(ôª°–ÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(à«®Äøÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÒıĞ…

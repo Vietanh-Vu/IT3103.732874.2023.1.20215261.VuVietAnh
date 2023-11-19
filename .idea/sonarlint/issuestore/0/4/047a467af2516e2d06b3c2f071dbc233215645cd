@@ -1,0 +1,42 @@
+
+“
+java:S1192†"|Define a constant instead of duplicating this literal "***********************************************************" 4 times.(Äß½¹
+¹
+java:S1598"œThis file "Cart.java" should be located in "Lab02" directory, not in "/mnt/ntfs/Workspace/School/IT3103.732874.2023.1.20215261.VuVietAnh/lab02/AimsProject".(àÌÄW8ªÓÊª¾1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àÌÄW8«ÓÊª¾1
+r	java:S116"XRename this field "MAX_NUM_ORDER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å¹ì´ûÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(Å¹ì´ûÿÿÿÿ
+œ
+java:S1186
+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²¸ş¾ÿÿÿÿÿ
+M
+java:S1854i"7Remove this useless assignment to local variable "qty".(Ë®˜ø
+E	java:S106c"+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ
+@	java:S106d"+Replace this use of System.out by a logger.(ìãœ§
+>
+java:S1481i"(Remove this unused "qty" local variable.(Ë®˜ø
+@	java:S106l"+Replace this use of System.out by a logger.(ÙùŠØ
+E	java:S106s"+Replace this use of System.out by a logger.(Ì€Áçûÿÿÿÿ
+@	java:S106t"+Replace this use of System.out by a logger.(ú÷¸ª
+E	java:S106{"+Replace this use of System.out by a logger.(±Ãÿàÿÿÿÿÿ
+A	java:S106ƒ"+Replace this use of System.out by a logger.(ôä¾Ç
+F	java:S106…"+Replace this use of System.out by a logger.(¦§•×ùÿÿÿÿ
+A	java:S106†"+Replace this use of System.out by a logger.(Äß½¹
+F	java:S106Œ"+Replace this use of System.out by a logger.(ÈÚŸ—ÿÿÿÿÿ
+A	java:S106"+Replace this use of System.out by a logger.(Äß½¹
+F	java:S106•"+Replace this use of System.out by a logger.(±Ãÿàÿÿÿÿÿ
+A	java:S106"+Replace this use of System.out by a logger.(ôä¾Ç
+F	java:S106Ÿ"+Replace this use of System.out by a logger.(¦§•×ùÿÿÿÿ
+A	java:S106 "+Replace this use of System.out by a logger.(Äß½¹
+F	java:S106¥"+Replace this use of System.out by a logger.(ÈÚŸ—ÿÿÿÿÿ
+A	java:S106¦"+Replace this use of System.out by a logger.(Äß½¹
+A	java:S106±"+Replace this use of System.out by a logger.(²ÈÂ­
+F	java:S106²"+Replace this use of System.out by a logger.(¨ı³Àıÿÿÿÿ
+F	java:S106³"+Replace this use of System.out by a logger.(‰óšüÿÿÿÿ
+F	java:S106´"+Replace this use of System.out by a logger.(¡¢ÖÏşÿÿÿÿ
+F	java:S106µ"+Replace this use of System.out by a logger.(ğµ¬•şÿÿÿÿ
+A	java:S106¶"+Replace this use of System.out by a logger.(®Ôƒ¦
+F	java:S106·"+Replace this use of System.out by a logger.(½¡ú¤øÿÿÿÿ
+L
+java:S1068"1Remove this unused "MAX_NUM_ORDER" private field.(Å¹ì´ûÿÿÿÿ

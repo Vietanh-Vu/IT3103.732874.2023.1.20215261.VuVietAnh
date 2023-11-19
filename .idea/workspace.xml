@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04559ca0-2450-4e7b-9331-685c4f698a3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/047a467af2516e2d06b3c2f071dbc233215645cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/0864111469a4e435dcb9a679f42826da9ce36a2e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee1de34b4a62e7f5f4d14b6ba3b50230d3b8f2a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87f04ca951108d88818ae72c75a75284daf2de73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f25017bc11146d5597f47c9f9485dedcb5f9b0e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad48892471d03cc1432fd11591aa49a72aaddd1c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/4/047a467af2516e2d06b3c2f071dbc233215645cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/8/0864111469a4e435dcb9a679f42826da9ce36a2e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/e/7ee1de34b4a62e7f5f4d14b6ba3b50230d3b8f2a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/87f04ca951108d88818ae72c75a75284daf2de73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f25017bc11146d5597f47c9f9485dedcb5f9b0e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/d/ad48892471d03cc1432fd11591aa49a72aaddd1c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/AimsProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/Design/ClassAIMS.asta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/Design/ClassAIMS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/Requirement/AIMS.asta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/Requirement/UseCaseAIMS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/itep/aims/Aims.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/itep/aims/cart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/itep/aims/disc/DigitalVideoDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/itep/aims/store/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/itep/test/cart/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/itep/test/disc/TestPassingParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AimsProject/src/hust/soict/itep/test/store/StoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20215261.VuVietAnh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab02/lab02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab02/answer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab02/answer.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2YNHQx3zDoENCT4fxyPC2bC7pZq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "refactor/packages",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "/mnt/ntfs/Workspace/School/IT3103.732874.2023.1.20215261.VuVietAnh/AimsProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AimsProject" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hust.soict.itep.test.disc" />
+      <recent name="hust.soict.itep.test.store" />
+      <recent name="hust.soict.itep.test.cart" />
+      <recent name="hust.soict.itep.aims" />
+      <recent name="hust.soict.itep.aims.store" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04559ca0-2450-4e7b-9331-685c4f698a3d" name="Changes" comment="" />
+      <created>1700359106045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700359106045</updated>
+      <workItem from="1700359107089" duration="928000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

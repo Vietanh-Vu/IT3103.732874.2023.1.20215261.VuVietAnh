@@ -1,0 +1,11 @@
+
+Â
+java:S1598"¬This file "TestPassingParameter.java" should be located in "Lab02" directory, not in "/mnt/ntfs/Workspace/School/IT3103.732874.2023.1.20215261.VuVietAnh/lab02/AimsProject".(àÌÄW
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àÌÄW
+M
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¶ÙÁ¹
+E	java:S106"+Replace this use of System.out by a logger.( Ëµ”ÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(‘ñØä
+R
+java:S1854$"7Remove this useless assignment to local variable "dvd".(ıÑ›ôüÿÿÿÿ
