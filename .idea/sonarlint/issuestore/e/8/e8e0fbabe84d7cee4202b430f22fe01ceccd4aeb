@@ -1,16 +1,27 @@
 
 {
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(á³³˜øÿÿÿÿ8ÍïÌÁ1
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(á³³˜øÿÿÿÿ8ÍïÌÁ1
 s
-java:S1192 "QDefine a constant instead of duplicating this literal "Not found media!" 3 times.( Á§äúÿÿÿÿ8ÍïÌÁ1
+java:S1192!"QDefine a constant instead of duplicating this literal "Not found media!" 3 times.( Á§äúÿÿÿÿ8ÍïÌÁ1
 £
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²¸ş¾ÿÿÿÿÿ8ĞïÌÁ1
-G	java:S106"+Replace this use of System.out by a logger.(ãÕÎ²8’ÅãÌÁ1
-L	java:S106 "+Replace this use of System.out by a logger.( Á§äúÿÿÿÿ8’ÅãÌÁ1
-G	java:S106("+Replace this use of System.out by a logger.(„öÔ8’ÅãÌÁ1
-L	java:S1068"+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ8“ÅãÌÁ1
-G	java:S1069"+Replace this use of System.out by a logger.(ìãœ§8”ÅãÌÁ1
-G	java:S106="+Replace this use of System.out by a logger.(•„ô…8•ÅãÌÁ1
-L	java:S106>"+Replace this use of System.out by a logger.(ÖØ×Îúÿÿÿÿ8ÙïÌÁ1
-L	java:S106K"+Replace this use of System.out by a logger.( Á§äúÿÿÿÿ8ÛïÌÁ1
-L	java:S106Y"+Replace this use of System.out by a logger.( Á§äúÿÿÿÿ8ÜïÌÁ1
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²¸ş¾ÿÿÿÿÿ8ĞïÌÁ1
+|
+java:S1845f"ZRename method "searchById" to prevent any misunderstanding/clash with method "searchByID".(±ø±ìÿÿÿÿÿ8¯¼¹ÏÁ1
+G	java:S106"+Replace this use of System.out by a logger.(ãÕÎ²8’ÅãÌÁ1
+L	java:S106!"+Replace this use of System.out by a logger.( Á§äúÿÿÿÿ8’ÅãÌÁ1
+G	java:S106)"+Replace this use of System.out by a logger.(„öÔ8’ÅãÌÁ1
+L	java:S1069"+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ8“ÅãÌÁ1
+G	java:S106:"+Replace this use of System.out by a logger.(ìãœ§8”ÅãÌÁ1
+G	java:S106>"+Replace this use of System.out by a logger.(•„ô…8•ÅãÌÁ1
+L	java:S106?"+Replace this use of System.out by a logger.(ÖØ×Îúÿÿÿÿ8ÙïÌÁ1
+L	java:S106L"+Replace this use of System.out by a logger.( Á§äúÿÿÿÿ8ÛïÌÁ1
+L	java:S106Z"+Replace this use of System.out by a logger.( Á§äúÿÿÿÿ8ÜïÌÁ1
+P
+java:S1172f".Remove this unused method parameter "inputId".(±ø±ìÿÿÿÿÿ8˜ûÀÏÁ1
+L	java:S106g"+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ8˜ûÀÏÁ1
+G	java:S106k"+Replace this use of System.out by a logger.(´æ¢Ã8™ûÀÏÁ1
+L	java:S106s"+Replace this use of System.out by a logger.(Š¯¿ƒşÿÿÿÿ8šûÀÏÁ1
+L	java:S106x"+Replace this use of System.out by a logger.(ÏÛÌÄøÿÿÿÿ8šûÀÏÁ1
+G	java:S106{"+Replace this use of System.out by a logger.(ú÷¸ª8šûÀÏÁ1
+d
+java:S1128"HRemove this unused import 'hust.soict.itep.aims.media.DigitalVideoDisc'.(¤»çV8Ó«ÁÏÁ1

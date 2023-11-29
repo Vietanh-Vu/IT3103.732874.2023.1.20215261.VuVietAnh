@@ -1,5 +1,7 @@
 package hust.soict.itep.aims.media;
 
+import java.util.Comparator;
+
 public abstract class Media {
     // Attributes
     private int id;           // Unique identifier for the media
@@ -29,6 +31,20 @@ public abstract class Media {
     public boolean isMatch(String title) {
         return title.equals(this.title);
     }
+
+    @Override
+    public boolean equals(Object o) {
+        Media media = (Media) o;
+        try {
+            String title = media.getTitle();
+            return title.equals(this.getTitle());
+        } catch (NullPointerException e) {
+            return false;
+        }
+    }
+
+    public static final Comparator<Media> COMPARE_BY_TITLE_COST = new MediaComparatorByTitleCost();
+    public static final Comparator<Media> COMPARE_BY_COST_TITLE = new MediaComparatorByCostTitle();
 
     // Getters and Setters
     public int getId() {
@@ -61,5 +77,15 @@ public abstract class Media {
 
     public void setCost(float cost) {
         this.cost = cost;
+    }
+
+    @Override
+    public String toString() {
+        return "Media{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", category='" + category + '\'' +
+                ", cost=" + cost +
+                '}';
     }
 }

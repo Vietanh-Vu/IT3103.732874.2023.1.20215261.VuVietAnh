@@ -53,4 +53,30 @@ public class Store {
     public void setItemsInStore(List<Media> itemsInStore) {
         this.itemsInStore = itemsInStore;
     }
+
+    public void print() {
+        System.out.println("***********************LIST ITEMS IN STORE***********************");
+        for (Media media : this.itemsInStore) {
+            System.out.println(media.toString());
+        }
+        System.out.println("*****************************************************************");
+    }
+
+    public Media findMediaById(int id) {
+        for (Media media : itemsInStore) {
+            if (media.getId() == id) {
+                return media;
+            }
+        }
+        return null;
+    }
+
+    public Media findMediaByTitle(String title) {
+        for (Media media : itemsInStore) {
+            if (media.getTitle().equalsIgnoreCase(title)) {
+                return media;
+            }
+        }
+        return null;
+    }
 }

@@ -1,8 +1,9 @@
 
+W	java:S125"<This block of commented-out lines of code should be removed.(îíÑ[8ÊãÕÎÁ1
 M
 java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(¶ÙÁ¹
-E	java:S106"+Replace this use of System.out by a logger.( Ëµ”ÿÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(‘ñØä
-R
-java:S1854&"7Remove this useless assignment to local variable "dvd".(ıÑ›ôüÿÿÿÿ
+X
+java:S1854$"<Remove this useless assignment to local variable "oldTitle".(á‡àJ8ˆûÕÎÁ1
+I
+java:S1481$"-Remove this unused "oldTitle" local variable.(á‡àJ8ˆûÕÎÁ1
+]	java:S125&"<This block of commented-out lines of code should be removed.(³í¶ùùÿÿÿÿ8‰ûÕÎÁ1

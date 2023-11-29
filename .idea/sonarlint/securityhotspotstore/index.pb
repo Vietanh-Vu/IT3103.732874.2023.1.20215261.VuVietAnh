@@ -31,3 +31,7 @@ k
 ;AimsProject/src/hust/soict/itep/aims/media/CompactDisc.java,e/a/ea43f17ab98818caaf474a37b066f65600736618
 e
 5AimsProject/src/hust/soict/itep/aims/media/Track.java,f/0/f002a99c92e6ee098ba281c94bb844400e8782c2
+z
+JAimsProject/src/hust/soict/itep/aims/media/MediaComparatorByCostTitle.java,8/7/874b3822b2b769e682baadd65a1d9c5737a5fd30
+z
+JAimsProject/src/hust/soict/itep/aims/media/MediaComparatorByTitleCost.java,9/4/94a42900ebecb6ec5a09f2404c56854fe2a29547

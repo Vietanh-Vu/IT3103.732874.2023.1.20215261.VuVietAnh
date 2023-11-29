@@ -5,6 +5,7 @@ import hust.soict.itep.aims.media.Media;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 // Cart class represents a shopping cart that holds a collection of Media items.
 public class Cart {
@@ -88,5 +89,38 @@ public class Cart {
         if (!found) {
             System.out.println("Not found media!");
         }
+    }
+
+    public void emptyCart() {
+        itemsOrdered.clear();
+    }
+
+    public List<Media> getItemsOrdered() {
+        return itemsOrdered;
+    }
+
+    public void searchById(int inputId) {
+        System.out.println("***********************CART***********************");
+        Scanner scanner = new Scanner(System.in);
+
+        // Hiển thị thông báo yêu cầu nhập xâu
+        System.out.println("Enter the title:");
+
+        // Đọc xâu từ người dùng
+        String inputTitle = scanner.nextLine();
+
+        int checkItemFound = 0;
+        for (Media media : itemsOrdered) {
+            if (media.getTitle().equals(inputTitle)) {
+                System.out.println(media.toString() + " found!");
+                checkItemFound = 1;
+            }
+        }
+        if (checkItemFound == 0) {
+            System.out.println(inputTitle + " not found!");
+        }
+
+        System.out.println("***************************************************");
+        scanner.close();
     }
 }
