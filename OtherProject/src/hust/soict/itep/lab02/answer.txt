@@ -1,0 +1,15 @@
+Q: Java là ngôn ngữ Pass-By-Value hay Pass-By-Reference?
+A: Java là ngôn ngữ Pass-By-Value.
+Q	Tạo thêm một phương thức mới addDigitalVideoDisc mà đầu vào là một số lượng DVD bất kì, so sánh nó với kiểu dữ liệu đầu vào là mảng. Bạn ưa thích phương thức nào hơn trong trường hợp này?
+
+A Phương thức với tham số biến động là tiện lợi hơn, bởi vì đầu vào chỉ là các tham số có cùng kiểu dữ liệu nên: 
+-	Khi muốn thêm DVD vào thì chỉ cần viết DVD đó trực tiếp vào đầu vào của phương thức mà không phải tạo một mảng mới.
+-	Ta có thể thêm một số lượng DVD bất kì vào đầu vào của phương thức.
+
+Q	Sau khi gọi phương thức swap (jungleDVD, cinderellaDVD),giá trị title của hai đối tượng DVD vẫn giữ nguyên?
+A Điều này là bởi vì khi gọi phương thức swap, JAVA sẽ copy giá trị của các tham số đầu vào jungleDVD, cinderellaDVD, sau đó truyền vào phương thức swap để thực hiện. 
+Do đó hàm swap chỉ thực hiện hoán đổi bản sao của 2 tham số đầu vào, chứ không thực hiện hoán đổi chính 2 tham số đó.
+
+Q -	Sau khi gọi phương thức changeTitle(jungleDVD,cinderellaDVD.getTitle()), giá trị title của JungleDVD bị thay đổi từ Jungle thành Cinderella?
+A Điều này là vì mặc dù phương thức này làm việc với bản sao các tham số đầu vào, nhưng trong phương thức này có câu lệnh dvd.setTitle(title);
+Câu lệnh này trực tiếp thay đổi giá trị thuộc tính title của đối tượng mà bản sao của jungleDVD trỏ tới, ở đây đổi thành Cinderella.
