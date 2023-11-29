@@ -1,4 +1,8 @@
 
-E	java:S106"+Replace this use of System.out by a logger.(ôª°–ÿÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(à«®Äøÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(ÒıĞ…
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥—ôÿ8®ÛùÌÁ1
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­ö‰çùÿÿÿÿ8°ÛùÌÁ1
+G	java:S106"+Replace this use of System.out by a logger.(ãÕÎ²8´ÛùÌÁ1
+L	java:S106""+Replace this use of System.out by a logger.( Á§äúÿÿÿÿ8´ÛùÌÁ1
+L	java:S106*"+Replace this use of System.out by a logger.(ŒÛÉŠıÿÿÿÿ8µÛùÌÁ1

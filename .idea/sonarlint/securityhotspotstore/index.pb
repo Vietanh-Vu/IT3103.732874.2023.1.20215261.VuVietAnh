@@ -3,8 +3,6 @@
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 I
 AimsProject/src/Main.java,7/e/7ee1de34b4a62e7f5f4d14b6ba3b50230d3b8f2a
-o
-?AimsProject/src/hust/soict/itep/aims/disc/DigitalVideoDisc.java,0/8/0864111469a4e435dcb9a679f42826da9ce36a2e
 c
 3AimsProject/src/hust/soict/itep/aims/cart/Cart.java,e/8/e8e0fbabe84d7cee4202b430f22fe01ceccd4aeb
 e
@@ -19,3 +17,17 @@ s
 CAimsProject/src/hust/soict/itep/test/disc/TestPassingParameter.java,6/a/6a1f0d336b5f8c62cbb46a1e63597b0c2006d7f8
 J
 OtherProject/src/Main.java,1/c/1cdc16ef260b90531c5dd20a10840780c0a9aaa8
+d
+4AimsProject/src/hust/soict/itep/aims/media/Book.java,1/f/1f065bdf93e74e6fd856d1c247cfe6198b344cda
+e
+5AimsProject/src/hust/soict/itep/aims/media/Media.java,f/6/f6164a7898f5330b04e1b94758298720558f8d9d
+p
+@AimsProject/src/hust/soict/itep/aims/media/DigitalVideoDisc.java,e/f/ef62a4bd674f8cf92b598a54af3506c9823df60a
+h
+8AimsProject/src/hust/soict/itep/aims/media/Playable.java,f/5/f5a78db2e0a8035edeb68824b834f3425f116bb9
+d
+4AimsProject/src/hust/soict/itep/aims/media/Disc.java,7/9/79dd8dc795a4f7346d6850c37e5b28a8fdaec2bd
+k
+;AimsProject/src/hust/soict/itep/aims/media/CompactDisc.java,e/a/ea43f17ab98818caaf474a37b066f65600736618
+e
+5AimsProject/src/hust/soict/itep/aims/media/Track.java,f/0/f002a99c92e6ee098ba281c94bb844400e8782c2

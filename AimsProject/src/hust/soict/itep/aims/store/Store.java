@@ -1,34 +1,56 @@
 package hust.soict.itep.aims.store;
 
-import hust.soict.itep.aims.disc.DigitalVideoDisc;
+import hust.soict.itep.aims.media.Media;
 
 import java.util.ArrayList;
 import java.util.List;
 
+// Store class represents a media store that manages a collection of Media items.
 public class Store {
-    private List<DigitalVideoDisc> itemsInStore;
 
+    // Attribute
+    private List<Media> itemsInStore = new ArrayList<Media>();  // List to store available Media items in the store
+
+    // Constructor
     public Store() {
-        this.itemsInStore = new ArrayList<>();
     }
 
-    // Method to add a DVD to the store
-    public void addDVD(DigitalVideoDisc dvd) {
-        itemsInStore.add(dvd);
-        System.out.println("DVD added to the store: " + dvd.getTitle());
+    // Method to add a new media to the store.
+    public void addMedia(Media media) {
+        // Add media to the store
+        itemsInStore.add(media);
+
+        // Notify that media has been added successfully
+        System.out.println("Added successfully");
     }
 
-    // Method to remove a DVD from the store
-    public void removeDVD(DigitalVideoDisc dvd) {
-        if (itemsInStore.remove(dvd)) {
-            System.out.println("DVD removed from the store: " + dvd.getTitle());
-        } else {
-            System.out.println("DVD not found in the store: " + dvd.getTitle());
+    // Method to remove a media from the store.
+    public void removeMedia(Media media) {
+        // Search for media in the store
+        int indexOfRemoved = itemsInStore.indexOf(media);
+
+        // If the media is not found
+        if (indexOfRemoved == -1) {
+            System.out.println("Not found media!");
+            return;
         }
+
+        // Remove the media
+        itemsInStore.remove(indexOfRemoved);
+
+        // Notify that media has been removed successfully
+        System.out.println("Removed successfully.");
     }
 
-    // Getter method to retrieve the items in the store
-    public List<DigitalVideoDisc> getItemsInStore() {
+    // Getters and Setters
+
+    // Getter for the list of items in the store.
+    public List<Media> getItemsInStore() {
         return itemsInStore;
+    }
+
+    // Setter for the list of items in the store.
+    public void setItemsInStore(List<Media> itemsInStore) {
+        this.itemsInStore = itemsInStore;
     }
 }
