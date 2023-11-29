@@ -1,9 +1,9 @@
 
-R
-java:S1854"<Remove this useless assignment to local variable "arrayDvd".(ıôÓ„
-V
-java:S1854	";Remove this useless assignment to local variable "anOrder".(¨‰‡šúÿÿÿÿ
-G
-java:S1481	",Remove this unused "anOrder" local variable.(¨‰‡šúÿÿÿÿ
-C
-java:S1481"-Remove this unused "arrayDvd" local variable.(ıôÓ„
+Y
+java:S1854"<Remove this useless assignment to local variable "arrayDvd".(ıôÓ„8÷ŒĞÁ1
+]
+java:S1854	";Remove this useless assignment to local variable "anOrder".(¨‰‡šúÿÿÿÿ8÷ŒĞÁ1
+N
+java:S1481	",Remove this unused "anOrder" local variable.(¨‰‡šúÿÿÿÿ8øŒĞÁ1
+J
+java:S1481"-Remove this unused "arrayDvd" local variable.(ıôÓ„8øŒĞÁ1
