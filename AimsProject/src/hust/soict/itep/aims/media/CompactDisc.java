@@ -5,7 +5,6 @@ import java.util.List;
 
 // CompactDisc class represents a CD and extends the Disc class, implementing the Playable interface.
 public class CompactDisc extends Disc implements Playable {
-
     // Attributes
     private String artist;                                // Artist of the CD
     private List<Track> tracks = new ArrayList<Track>();  // List of tracks in the CD
@@ -47,7 +46,6 @@ public class CompactDisc extends Disc implements Playable {
         tracks.remove(indexOfTrack);
         System.out.println("Remove track successfully");
     }
-
     // Method to get the total length of the CD by summing the lengths of all tracks
     @Override
     public int getLength() {
@@ -58,7 +56,6 @@ public class CompactDisc extends Disc implements Playable {
         setLength(length);
         return length;
     }
-
     // Method to play the CD and its tracks
     public void play() {
         System.out.println("Playing CD: " + this.getTitle());
@@ -68,7 +65,6 @@ public class CompactDisc extends Disc implements Playable {
             track.play();
         }
     }
-
     // Method to print details of the CD
     @Override
     public void print() {

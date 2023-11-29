@@ -21,6 +21,18 @@ public class Aims {
 
         List<Media> media = new ArrayList<>();
 
+        CompactDisc cd = new CompactDisc(1, "CD1", "Fantasy", 13F, "Lucas", 123, "John");
+        DigitalVideoDisc dvd = new DigitalVideoDisc(2, "DVD Title 1", "Action", "Director 1", 120, 15.99f);
+        Book book = new Book(3, "Book Title 1", "Fiction", 29.99f);
+
+        media.add(cd);
+        media.add(dvd);
+        media.add(book);
+
+        for (Media m : media) {
+            System.out.println(m.toString());
+        }
+
         CompactDisc cd1 = new CompactDisc(1, "CD Title 1", "Pop", 15.99f, "N/A", 120, "Artist 1");
         CompactDisc cd2 = new CompactDisc(2, "CD Title 2", "Rock", 19.99f, "N/A", 90, "Artist 2");
         CompactDisc cd3 = new CompactDisc(3, "CD Title 3", "Hip Hop", 12.99f, "N/A", 110, "Artist 3");
@@ -50,10 +62,6 @@ public class Aims {
         store.addMedia(book2);
         store.addMedia(book3);
         store.addMedia(book4);
-
-        for (Media m : media) {
-            System.out.println(m.toString());
-        }
 
 
         int option;
@@ -413,7 +421,7 @@ public class Aims {
         if (option == 1) {
             System.out.println("Enter the id:");
             int inputId = scanner.nextInt();
-            cart.searchById(inputId);
+            cart.searchByID(inputId);
         } else if (option == 2) {
             System.out.println("Enter the title:");
             String inputTitle = scanner.nextLine();

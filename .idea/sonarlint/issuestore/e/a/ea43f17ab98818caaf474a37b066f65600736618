@@ -1,13 +1,14 @@
 
 {
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚Š°ûÿÿÿÿ8ñíÑÌÁ1
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚Š°ûÿÿÿÿ8‡–²×Á1
 H
-java:S2160"+Override the "equals" method in this class.(¨«™8Ä¸ìÎÁ1
-L	java:S106!"+Replace this use of System.out by a logger.(¼µâøÿÿÿÿ8üíÑÌÁ1
-G	java:S106%"+Replace this use of System.out by a logger.(õ‡…ä8ıíÑÌÁ1
-G	java:S106,"+Replace this use of System.out by a logger.(£ÒÊÂ8şíÑÌÁ1
-L	java:S1060"+Replace this use of System.out by a logger.(¿ÓúÅûÿÿÿÿ8şíÑÌÁ1
-L	java:S106@"+Replace this use of System.out by a logger.(ÀÉŒøøÿÿÿÿ8€îÑÌÁ1
-L	java:S106A"+Replace this use of System.out by a logger.(…Œ‚÷üÿÿÿÿ8îÑÌÁ1
-F	java:S106B"+Replace this use of System.out by a logger.(Ó‚×c8îÑÌÁ1
-L	java:S106K"+Replace this use of System.out by a logger.(Ÿ’ñåüÿÿÿÿ8ƒîÑÌÁ1
+java:S2160"+Override the "equals" method in this class.(¨«™8‡–²×Á1
+L	java:S106 "+Replace this use of System.out by a logger.(¼µâøÿÿÿÿ8—–²×Á1
+G	java:S106$"+Replace this use of System.out by a logger.(õ‡…ä8—–²×Á1
+G	java:S106+"+Replace this use of System.out by a logger.(£ÒÊÂ8—–²×Á1
+L	java:S106/"+Replace this use of System.out by a logger.(¿ÓúÅûÿÿÿÿ8—–²×Á1
+L	java:S106="+Replace this use of System.out by a logger.(ÀÉŒøøÿÿÿÿ8—–²×Á1
+L	java:S106>"+Replace this use of System.out by a logger.(…Œ‚÷üÿÿÿÿ8—–²×Á1
+F	java:S106?"+Replace this use of System.out by a logger.(Ó‚×c8—–²×Á1
+L	java:S106G"+Replace this use of System.out by a logger.(Ÿ’ñåüÿÿÿÿ8—–²×Á1

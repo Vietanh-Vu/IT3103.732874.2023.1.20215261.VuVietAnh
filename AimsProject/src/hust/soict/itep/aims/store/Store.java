@@ -1,13 +1,10 @@
 package hust.soict.itep.aims.store;
-
 import hust.soict.itep.aims.media.Media;
-
 import java.util.ArrayList;
 import java.util.List;
 
 // Store class represents a media store that manages a collection of Media items.
 public class Store {
-
     // Attribute
     private List<Media> itemsInStore = new ArrayList<Media>();  // List to store available Media items in the store
 
@@ -19,7 +16,6 @@ public class Store {
     public void addMedia(Media media) {
         // Add media to the store
         itemsInStore.add(media);
-
         // Notify that media has been added successfully
         System.out.println("Added successfully");
     }
@@ -28,22 +24,18 @@ public class Store {
     public void removeMedia(Media media) {
         // Search for media in the store
         int indexOfRemoved = itemsInStore.indexOf(media);
-
         // If the media is not found
         if (indexOfRemoved == -1) {
             System.out.println("Not found media!");
             return;
         }
-
         // Remove the media
         itemsInStore.remove(indexOfRemoved);
-
         // Notify that media has been removed successfully
         System.out.println("Removed successfully.");
     }
 
     // Getters and Setters
-
     // Getter for the list of items in the store.
     public List<Media> getItemsInStore() {
         return itemsInStore;

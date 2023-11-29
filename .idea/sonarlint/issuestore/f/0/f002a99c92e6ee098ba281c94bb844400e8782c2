@@ -1,3 +1,9 @@
 
-G	java:S106#"+Replace this use of System.out by a logger.(Ó¥Ù°8¸¶ÔÌÁ1
-G	java:S106$"+Replace this use of System.out by a logger.(ªú·è8¹¶ÔÌÁ1
+`
+java:S2259("CA "NullPointerException" could be thrown; "track" is nullable here.(Å—´ƒ8›Û“ØÁ1
+m
+java:S1206&"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8›Û“ØÁ1
+G	java:S106""+Replace this use of System.out by a logger.(Ó¥Ù°8›Û“ØÁ1
+G	java:S106#"+Replace this use of System.out by a logger.(ªú·è8›Û“ØÁ1
+<
+java:S2097&"Add a type test to this method.(ÜÑã8›Û“ØÁ1

@@ -2,7 +2,7 @@ package hust.soict.itep.aims.media;
 
 import java.util.Comparator;
 
-public abstract class Media {
+    public abstract class Media {
     // Attributes
     private int id;           // Unique identifier for the media
     private String title;     // Title of the media

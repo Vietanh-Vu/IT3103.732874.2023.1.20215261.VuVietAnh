@@ -1,6 +1,5 @@
 package hust.soict.itep.aims.cart;
 
-import hust.soict.itep.aims.media.DigitalVideoDisc;
 import hust.soict.itep.aims.media.Media;
 
 import java.util.ArrayList;
@@ -9,7 +8,6 @@ import java.util.Scanner;
 
 // Cart class represents a shopping cart that holds a collection of Media items.
 public class Cart {
-
     // Attribute
     private List<Media> itemsOrdered = new ArrayList<Media>();  // List to store ordered Media items
 
@@ -27,16 +25,13 @@ public class Cart {
     public void removeMedia(Media media) {
         // Search for media
         int indexOfRemoved = itemsOrdered.indexOf(media);
-
         // If not found
         if (indexOfRemoved == -1) {
             System.out.println("Not found media!");
             return;
         }
-
         // Remove
         itemsOrdered.remove(indexOfRemoved);
-
         // Notify
         System.out.println("Removed successfully");
     }
@@ -47,7 +42,6 @@ public class Cart {
         for (Media media : itemsOrdered) {
             cost += media.getCost();
         }
-
         return Math.round(cost * 100.0) / 100.0;
     }
 
@@ -99,28 +93,28 @@ public class Cart {
         return itemsOrdered;
     }
 
-    public void searchById(int inputId) {
-        System.out.println("***********************CART***********************");
-        Scanner scanner = new Scanner(System.in);
-
-        // Hiển thị thông báo yêu cầu nhập xâu
-        System.out.println("Enter the title:");
-
-        // Đọc xâu từ người dùng
-        String inputTitle = scanner.nextLine();
-
-        int checkItemFound = 0;
-        for (Media media : itemsOrdered) {
-            if (media.getTitle().equals(inputTitle)) {
-                System.out.println(media.toString() + " found!");
-                checkItemFound = 1;
-            }
-        }
-        if (checkItemFound == 0) {
-            System.out.println(inputTitle + " not found!");
-        }
-
-        System.out.println("***************************************************");
-        scanner.close();
-    }
+//    public void searchById(int inputId) {
+//        System.out.println("***********************CART***********************");
+//        Scanner scanner = new Scanner(System.in);
+//
+//        // Hiển thị thông báo yêu cầu nhập xâu
+//        System.out.println("Enter the title:");
+//
+//        // Đọc xâu từ người dùng
+//        String inputTitle = scanner.nextLine();
+//
+//        int checkItemFound = 0;
+//        for (Media media : itemsOrdered) {
+//            if (media.getTitle().equals(inputTitle)) {
+//                System.out.println(media.toString() + " found!");
+//                checkItemFound = 1;
+//            }
+//        }
+//        if (checkItemFound == 0) {
+//            System.out.println(inputTitle + " not found!");
+//        }
+//
+//        System.out.println("***************************************************");
+//        scanner.close();
+//    }
 }

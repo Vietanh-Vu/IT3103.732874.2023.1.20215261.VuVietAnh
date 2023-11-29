@@ -1,11 +1,11 @@
 
 v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥—ôÿ8—¡ÏÁ1
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥—ôÿ8—¡ÏÁ1
 £
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­ö‰çùÿÿÿÿ8¤—¡ÏÁ1
-G	java:S106"+Replace this use of System.out by a logger.(ãÕÎ²8§—¡ÏÁ1
-L	java:S106""+Replace this use of System.out by a logger.( Á§äúÿÿÿÿ8¨—¡ÏÁ1
-L	java:S106*"+Replace this use of System.out by a logger.(ŒÛÉŠıÿÿÿÿ8¨—¡ÏÁ1
-L	java:S106:"+Replace this use of System.out by a logger.(µá´·ıÿÿÿÿ8åà¡ÏÁ1
-G	java:S106<"+Replace this use of System.out by a logger.(ı±µ©8ë–¬ÏÁ1
-G	java:S106>"+Replace this use of System.out by a logger.(ü¨»8Š—­ÏÁ1
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­ö‰çùÿÿÿÿ8¤—¡ÏÁ1
+G	java:S106"+Replace this use of System.out by a logger.(ãÕÎ²8§—¡ÏÁ1
+L	java:S106"+Replace this use of System.out by a logger.( Á§äúÿÿÿÿ8¨—¡ÏÁ1
+L	java:S106#"+Replace this use of System.out by a logger.(ŒÛÉŠıÿÿÿÿ8¨—¡ÏÁ1
+L	java:S1062"+Replace this use of System.out by a logger.(µá´·ıÿÿÿÿ8åà¡ÏÁ1
+G	java:S1064"+Replace this use of System.out by a logger.(ı±µ©8ë–¬ÏÁ1
+G	java:S1066"+Replace this use of System.out by a logger.(ü¨»8Š—­ÏÁ1

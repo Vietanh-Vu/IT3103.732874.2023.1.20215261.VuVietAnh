@@ -1,0 +1,14 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(Àš‘³8å³¯ÖÁ1
+L	java:S106"+Replace this use of System.out by a logger.(ğàúùÿÿÿÿ8å³¯ÖÁ1
+G	java:S106"+Replace this use of System.out by a logger.(àË°ş8¦ˆ°ÖÁ1
+L	java:S106"+Replace this use of System.out by a logger.(»á¶ùÿÿÿÿ8¦ˆ°ÖÁ1
+H
+java:S1068"&Remove this unused "id" private field.(ôç¼Óşÿÿÿÿ8º°®ÖÁ1
+K
+java:S1068")Remove this unused "title" private field.(åõò¹ıÿÿÿÿ8º°®ÖÁ1
+N
+java:S1068	",Remove this unused "category" private field.(‘Ñ¤’üÿÿÿÿ8º°®ÖÁ1
+J
+java:S1068
+"(Remove this unused "cost" private field.(Ñ‰ÆØùÿÿÿÿ8º°®ÖÁ1

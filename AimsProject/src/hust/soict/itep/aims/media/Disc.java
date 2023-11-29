@@ -22,7 +22,6 @@ public class Disc extends Media {
     }
 
     // Getters and Setters
-
     // Getter for the director of the disc.
     public String getDirector() {
         return director;
