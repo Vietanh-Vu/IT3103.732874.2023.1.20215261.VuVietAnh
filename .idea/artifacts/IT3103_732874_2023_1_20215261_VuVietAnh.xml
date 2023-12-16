@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="IT3103.732874.2023.1.20215261.VuVietAnh">
+    <output-path>$PROJECT_DIR$/out/artifacts/IT3103_732874_2023_1_20215261_VuVietAnh</output-path>
+    <root id="root">
+      <element id="archive" name="IT3103_732874_2023_1_20215261_VuVietAnh.jar">
+        <element id="module-output" name="IT3103.732874.2023.1.20215261.VuVietAnh" />
+      </element>
+    </root>
+  </artifact>
+</component>

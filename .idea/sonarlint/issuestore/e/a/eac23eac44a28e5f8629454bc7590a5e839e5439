@@ -1,0 +1,14 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(´‘ˆ¿üÿÿÿÿ
+`	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(Íàô¢ûÿÿÿÿ
+[	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(Ã–åÚ
+[	java:S112["FDefine and throw a dedicated exception instead of using a generic one.(Ã–åÚ
+²
+java:S1598"›This file "Cart.java" should be located in "lab05\AimsProject" directory, not in "E:\Workspace\School\IT3103.732874.2023.1.20215261.VuVietAnh\AimsProject".(àúÌ×
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àúÌ×
+@	java:S106"+Replace this use of System.out by a logger.(ù®Ôõ
+@	java:S1061"+Replace this use of System.out by a logger.(™ÌÆÙ
+E	java:S106A"+Replace this use of System.out by a logger.(æç«ÿûÿÿÿÿ
+@	java:S106B"+Replace this use of System.out by a logger.(ìãœ§
+@	java:S106F"+Replace this use of System.out by a logger.(•„ô…
+E	java:S106G"+Replace this use of System.out by a logger.(ÖØ×Îúÿÿÿÿ

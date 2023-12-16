@@ -1,0 +1,53 @@
+Trong trường hợp muốn so sánh các đối tượng Media với nhau bằng cách sử dụng Comparable thay vì Comparator, thì thay vì tạo ra các lớp riêng cho từng Comparator, chúng ta cần để lớp Media triển khai interface Comparable.
+
+Dưới đây là một ví dụ về cách triển khai Comparable trong lớp trừu tượng Media:
+
+public abstract class Media implements Comparable<Media> {
+    @Override
+    public int compareTo(Media otherMedia) {
+        // So sánh theo tiêu đề
+        return this.title.compareTo(otherMedia.getTitle());
+    }
+}
+
+Cũng có thể mở rộng cài đặt để so sánh nhiều thuộc tính hơn, như sau:
+
+public abstract class Media implements Comparable<Media> {
+    @Override
+    public int compareTo(Media otherMedia) {
+        // So sánh theo tiêu đề trước
+        int titleComparison = this.title.compareTo(otherMedia.getTitle());
+
+        // Nếu các tiêu đề bằng nhau, so sánh theo giá
+        return (titleComparison == 0) ? Float.compare(this.cost, otherMedia.getCost()) : titleComparison;
+    }
+}
+
+Ngoài ra, cũng có thể triển khai phương thức compareTo trong lớp con, như sau:
+
+public class DVD extends Media {
+    @Override
+    public int compareTo(Media otherMedia) {
+        if (otherMedia instanceof DVD) {
+            DVD otherDVD = (DVD) otherMedia;
+
+            // So sánh theo tiêu đề trước
+            int titleComparison = getTitle().compareTo(otherDVD.getTitle());
+
+            // Nếu các tiêu đề bằng nhau, so sánh theo độ dài giảm dần
+            if (titleComparison == 0) {
+                int lengthComparison = Integer.compare(otherDVD.getLength(), getLength());
+
+                // Nếu độ dài bằng nhau, so sánh theo giá
+                return (lengthComparison == 0) ? Float.compare(getCost(), otherDVD.getCost()) : lengthComparison;
+            }
+
+            return titleComparison;
+        } else {
+            // Đối với các đối tượng Media không phải DVD, sử dụng so sánh mặc định (theo tiêu đề rồi giá)
+            return super.compareTo(otherMedia);
+        }
+    }
+}
+
+Cách triển khai này giúp chúng ta linh hoạt hơn khi so sánh các đối tượng Media và cung cấp khả năng mở rộng cho các lớp con khác nếu cần thiết.
