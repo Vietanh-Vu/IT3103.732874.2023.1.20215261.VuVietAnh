@@ -1,0 +1,10 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‘òÿ§úÿÿÿÿ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(®±ØÂþÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕŠÀ×
+E	java:S106"+Replace this use of System.out by a logger.(›¤ÌØýÿÿÿÿ
+@	java:S106 "+Replace this use of System.out by a logger.(™ÌÆÙ
+@	java:S106&"+Replace this use of System.out by a logger.(Žþî‘
+@	java:S106*"+Replace this use of System.out by a logger.(úìéÁ
+E	java:S106,"+Replace this use of System.out by a logger.(š×’ÿÿÿÿÿÿ

@@ -1,0 +1,12 @@
+
+H
+java:S1659
+"&Declare "btnReset" on a separate line.(ûİªçıÿÿÿÿ8ŸàßÇ1
+z
+java:S1450
+"XRemove the "btnDelete" field and declare it as a local variable in the relevant methods.(ûİªçıÿÿÿÿ8¥àßÇ1
+y
+java:S1450
+"WRemove the "btnReset" field and declare it as a local variable in the relevant methods.(ûİªçıÿÿÿÿ8§àßÇ1
+k
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8²àßÇ1
